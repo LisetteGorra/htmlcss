@@ -26,7 +26,7 @@ prices.push(87000, 92000, 100500);
 console.log(prices);
 
 for (var i = 0; i < totalCars.length; i++){
-    console.log("The", totalCars[i], "sold", carsSold[i], "times, for a total of", (prices[i]*carsSold[i]).toLocaleString('en-US', {style: 'currency', currency: 'USD'}), "at", prices[i].toLocaleString('en-US', {style: 'currency', currency: 'USD'}), "each!");
+    console.log("The", totalCars[i], "sold", carsSold[i], "times, for a total of", (prices[i]*carsSold[i]).toLocaleString('en-US', {style: 'currency', currency: 'USD'}), "at", prices[i].toLocaleString('en-US', {style: 'currency', currency: 'EUR'}), "each!");
 }
 
 
